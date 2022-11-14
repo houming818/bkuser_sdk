@@ -330,7 +330,7 @@ class ApiClient(object):
             If parameter async_req is False or missing,
             then the method will return the response directly.
         """
-        logger.debug("C2F5A10 - Calling API: %s %s" % (method, resource_path))
+        print("C2F5A10 - Calling API: %s %s" % (method, resource_path))
 
         if not async_req:
             return self.__call_api(
