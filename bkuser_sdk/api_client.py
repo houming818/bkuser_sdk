@@ -77,8 +77,6 @@ class ApiClient(object):
         self.pool.close()
         self.pool.join()
 
-    def get_csrf(self):
-
     @property
     def user_agent(self):
         """User agent for this API client"""
